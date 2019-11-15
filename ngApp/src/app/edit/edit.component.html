@@ -1,0 +1,28 @@
+<a routerLink="/employee-list">Go to List</a>
+<br>
+
+  
+
+    <legend>Register</legend>
+  
+    <div class="form-group">
+      <label for="no">No</label>
+      <input type="text" [(ngModel)]="emp.no" class="form-control" id="no" placeholder="Input field" name="no">
+    </div>
+
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" [(ngModel)]="emp.name" class="form-control" id="name" placeholder="Input field" name="name">
+    </div>
+    <div class="form-group">
+      <label for="city">City</label>
+      <input type="text" [(ngModel)]="emp.city" class="form-control" id="city" placeholder="Input field" name="city">
+    </div>
+    
+  
+    <button type="button" (click)="Update()" class="btn btn-primary">Update</button>
+ 
+  
+<span>
+  {{message}}
+</span>

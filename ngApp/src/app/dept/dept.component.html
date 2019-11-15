@@ -1,0 +1,10 @@
+<h1>List of Departments</h1>
+<button (click)="DoSomething()">ADD</button>
+
+<table>
+  <tr *ngFor="let dept of depts">
+    <td>{{dept.No}}</td>
+    <td>{{dept.Dept}}</td>
+    <td>{{dept.City}}</td>
+  </tr>
+</table>
